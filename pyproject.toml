@@ -26,4 +26,4 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Home = "https://github.com/yourusername/logic-grp"
+Home = "https://github.com/morrdrix/group_logic"
