@@ -51,7 +51,7 @@ all_= and_
 not_all_ = nand_
 all_equal_ = xnor_
 one_ = xor_
-nxor_ = xnor_ 
+nxor_ = xnor_
 
 
 
@@ -151,4 +151,5 @@ def majority(values: Any) -> bool:
         # Even if all remaining were True, can we still reach 'needed'?
         if seen + remaining < needed:
             return False
+
     return False
