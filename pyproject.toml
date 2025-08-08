@@ -30,3 +30,7 @@ dependencies = []
 Homepage = "https://github.com/morrdrix/group_logic"
 Repository = "https://github.com/morrdrix/group_logic.git"
 Issues = "https://github.com/morrdrix/group_logic/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["group_logic*"] 
