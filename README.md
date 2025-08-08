@@ -1,23 +1,18 @@
-# logic-grp
+# group_logic
 
 A small utility package to apply grouped logical operations (`AND`, `OR`, `XOR`, `NOR`, `NAND`, `XNOR`, `NONE`, `NOT_ALL`, `ALL_EQUAL`) on lists of values.
 
 ## Installation
 ```bash
-pip install logic-grp
+pip install group_logic
 ```
 
 ## Usage
 ```python
-from logic_grp import core
-
-# Einzel-Operationen
-core.and_grp([True, True, False])      # False
-core.or_grp([0, 0, 3])                  # True
-core.xor_grp([True, False, False])      # True
+from group_logic import logic
 
 # Wrapper
-core.logic_grp([1, 1, 0], mode='AND')   # True
+logic([1, 1, 0], "AND")   # False
 ```
 
 ## Tests
