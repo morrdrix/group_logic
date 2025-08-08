@@ -1,9 +1,9 @@
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["setuptools>=68", "wheel>=0.38"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "logic-grp"
+name = "group_logic"
 version = "0.1.0"
 authors = [
   { name = "Julian Klein" }
@@ -11,7 +11,8 @@ authors = [
 description = "Grouped logical operations on lists"
 readme = "README.md"
 license = { file = "LICENSE" }
-requires-python = ">=3.7"
+requires-python = ">=3.8"
+keywords = ["logic", "boolean", "and", "or", "xor", "xnor", "grouped-logic"]
 classifiers = [
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3 :: Only",
@@ -26,4 +27,6 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Home = "https://github.com/morrdrix/group_logic"
+Homepage = "https://github.com/morrdrix/group_logic"
+Repository = "https://github.com/morrdrix/group_logic.git"
+Issues = "https://github.com/morrdrix/group_logic/issues"
