@@ -55,9 +55,9 @@ def test_empty_list(func, empty_input):
 ])
 def test_wrapper_various_modes(mode, expected):
     sample = [True, True, True]
-    result = logic_(sample, mode)
+    result = logic(sample, mode)
     assert result == expected, f"Wrapper mode {mode} returned {result}, expected {expected}"
 
 def test_wrapper_invalid_mode():
     with pytest.raises(ValueError):
-        logic_([True], 'UNKNOWN')
+        logic([True], 'UNKNOWN')
